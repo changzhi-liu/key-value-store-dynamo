@@ -1,0 +1,11 @@
+{application,merkel,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"Implements a balanced, merkle binary hash tree.\nMerkle trees are a beautiful data structure for summarizing \nand verifying data integrity. \n"},
+              {modules,['Elixir.Inspect.Merkel.BinaryHashTree',
+                        'Elixir.Inspect.Merkel.BinaryNode','Elixir.Merkel',
+                        'Elixir.Merkel.AVL','Elixir.Merkel.Audit',
+                        'Elixir.Merkel.BinaryHashTree',
+                        'Elixir.Merkel.BinaryNode','Elixir.Merkel.Crypto',
+                        'Elixir.Merkel.Helper','Elixir.Merkel.Printer']},
+              {registered,[]},
+              {vsn,"1.0.5"}]}.
